@@ -1,0 +1,20 @@
+<!DOCTYPE Libros[
+<!ELEMENT Libros (libro)*>
+<!ELEMENT libro(Cod_libro, Titulo, Autores, Editorial, Edicion, ISBN, NumPaginas)>
+<!ELEMENT Cod_Libro(#PCDATA)>
+<!ELEMENT Titulo(#PCDATA)>
+<!ELEMENT Editorial(#PCDATA)>
+<!ELEMENT Edicion(#PCDATA)>
+<!ELEMENT ISBN(#PCDATA)>
+<!ELEMENT Num_paginas(#PCDATA)>
+
+
+<!ELEMENT Autores (autor)+>
+<!ELEMENT autor(Cod_Autor, Nombre, Apellidos, FechaNacimiento)>
+<!ELEMENT Cod_Autor(#PCDATA)>
+<!ELEMENT Nombre(#PCDATA)>
+<!ELEMENT Apellidos(#PCDATA)>
+<!ELEMENT FechaNacimiento(#PCDATA)>
+
+
+]>
